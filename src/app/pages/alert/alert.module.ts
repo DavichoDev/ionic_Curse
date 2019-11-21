@@ -13,7 +13,7 @@ import { AlertPage } from './alert.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    AlertPageRoutingModule
+    AlertPageRoutingModule,
   ],
   declarations: [AlertPage]
 })

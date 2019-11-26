@@ -1,9 +1,34 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>grid</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header titulo="Grid"></app-header>
 
 <ion-content>
+
+  <ion-grid fixed>
+
+
+    <ion-row>
+      <ion-col size="6" *ngFor="let c of componentes">
+        <ion-card>
+          <ion-img src="/assets/shapes.svg"></ion-img>
+          
+          <ion-card-header>
+              <ion-card-subtitle>{{ c.icon }}</ion-card-subtitle>
+              <ion-card-title>Titulo de la carta</ion-card-title>    
+          </ion-card-header>           
+
+          <ion-card-content>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, 
+            magni corrupti. Dicta totam maxime omnis, cumque necessitatibus ut optio rerum. 
+            Ad ut vero rem dicta numquam. Id rerum quos quisquam.
+          </ion-card-content>
+        
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+  
+
+  
+  </ion-grid>
+
 
 </ion-content>

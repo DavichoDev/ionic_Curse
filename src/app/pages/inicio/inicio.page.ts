@@ -47,6 +47,11 @@ export class InicioPage implements OnInit {
       icon: 'heart',
       nombre: 'Ionic Fab',
       redirectTo: '/fab'
+     },
+     {
+      icon: 'planet',
+      nombre: 'Ionic Grid',
+      redirectTo: '/grid'
      }
   ];
 

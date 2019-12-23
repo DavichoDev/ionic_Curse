@@ -11,7 +11,7 @@ export class InicioPage implements OnInit {
     {
     icon: 'american-football',
     nombre: 'Action Sheet',
-    redirectTo:'/action-sheet'
+    redirectTo: '/action-sheet'
     },
     {
       icon: 'appstore',
@@ -44,13 +44,13 @@ export class InicioPage implements OnInit {
       redirectTo: '/date-time'
      },
      {
-      icon: 'car',
-      nombre: 'Fabs',
+      icon: 'heart',
+      nombre: 'Ionic Fab',
       redirectTo: '/fab'
      },
      {
-      icon: 'grid',
-      nombre: 'Grid - Rows',
+      icon: 'planet',
+      nombre: 'Ionic Grid',
       redirectTo: '/grid'
      }
   ];

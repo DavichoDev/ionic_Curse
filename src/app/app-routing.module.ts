@@ -59,6 +59,10 @@ const routes: Routes = [
     path: 'list-reorder',
     loadChildren: () => import('./pages/list-reorder/list-reorder.module').then( m => m.ListReorderPageModule)
   },
+  {
+    path: 'loaging',
+    loadChildren: () => import('./pages/loaging/loaging.module').then( m => m.LoagingPageModule)
+  },
 
 ];
 

@@ -9,9 +9,25 @@ import { Observable } from 'rxjs';
 })
 export class ListPage implements OnInit {
 
+  /*
+    Con el viewChild es posible manipular los elementos del HTML
+  */
+
   usuarios: Observable<any>;
 
   constructor(private dataService: DataService) { }
+
+  favorite( user ) {
+    console.log(user);
+  }
+
+  share( user ) {
+    console.log(user);
+  }
+
+  delete( user ) {
+    console.log(user);
+  }
 
   ngOnInit() {
 
